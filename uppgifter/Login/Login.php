@@ -1,3 +1,12 @@
+
+<?php
+
+session_start();
+
+
+echo "Välkommen ".$_SESSION['username'];
+?>
+
 <!Doctype html>
 
 <html>
@@ -27,3 +36,4 @@
 
 
 </html>
+

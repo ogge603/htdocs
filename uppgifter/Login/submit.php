@@ -1,5 +1,9 @@
 <?php
 
+session_start();
+
+
+
 	$dbc = mysqli_connect("localhost","root","","register");
 
 		
@@ -27,7 +31,8 @@
 	else{
 		
 		echo ("Successfully logged in");
-		
+				$_SESSION["username"] = $username;
+
 		
 	} 
 				

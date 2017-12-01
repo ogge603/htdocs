@@ -1,3 +1,12 @@
+
+<?php
+
+session_start();
+
+
+echo "hej ".$_SESSION['username'];
+?>
+
 <!Doctype html>
 
 <html>
@@ -24,6 +33,14 @@
 		Lösenord: <input type="password" name="password"><br/>
 		
 			<button>Submit</button>
+			
+		<?php
+		
+
+		$_SESSION["password"] = ""
+		
+		?>
+			
 			
 	</body>
 
