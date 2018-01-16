@@ -1,11 +1,4 @@
 
-<?php
-
-session_start();
-
-
-echo "hej ".$_SESSION['username'];
-?>
 
 <!Doctype html>
 
@@ -34,12 +27,6 @@ echo "hej ".$_SESSION['username'];
 		
 			<button>Submit</button>
 			
-		<?php
-		
-
-		$_SESSION["password"] = ""
-		
-		?>
 			
 			
 	</body>
