@@ -100,9 +100,30 @@
 				
 				
 			}
-						
+					
+		function bigger(image) {
 			
+			image.style.height = "400px";
+			image.style.width = "400px";
+			
+			
+		}
+		function smaller(image) {
+			image.style.height = "200px";
+			image.style.width = "200px";
+		}
 	
+	
+		function hide() {
+				var image = document.getElementById("bild");
+				if(image.style.display == "none") {
+					image.style.display = "inline";
+				} else {
+					image.style.display = "none";
+				}
+			}
+	
+		
 	</script>
 	
 	
