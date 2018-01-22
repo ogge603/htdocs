@@ -46,7 +46,7 @@
 		<button onmousedown="increase(100)">100</button>
 		<br><br>
 		
-		<button onmousedown="resetcoutner()">Reset</button>
+		<button onmousedown="resetcounter()">Reset</button>
 	</div>
 		
 	<br><br>
@@ -149,6 +149,17 @@
 				
 			}
 			
+			function increase(x) {
+				
+				counter += x;
+				document.getElementById("number").innerHTML = counter;
+			
+			}
+			
+			function resetcounter() {
+				counter = 0;
+				document.getElementById("number").innerHTML = counter;
+			}
 		
 	</script>
 	
