@@ -123,6 +123,32 @@
 				}
 			}
 	
+		function changeColor() {
+			
+			
+			document.body.style.backgroundColor = "purple";
+			
+		}
+			
+			function clearPage() {
+				
+				document.getElementById("page").style.display = "none";
+				document.getElementById("page").style.display = "Page cleared!";
+
+			}
+				
+			function changeColorBox() {
+				
+				var box = document.getElementById("colorbox");
+				if(bpx.style.backgroundColor = "blue"){
+					box.style.backgroundColor = "green";
+				} else if (box.style.backgroundColor == "green") {
+					box.style.backgroundColor = "red";
+				}
+				
+				
+			}
+			
 		
 	</script>
 	
